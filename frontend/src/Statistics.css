@@ -1,0 +1,45 @@
+
+.statistics-dashboard {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-header {
+    background-color: #3a8bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
